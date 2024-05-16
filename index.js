@@ -5,7 +5,7 @@ const port = process.env.PORT || 3001;
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log('Hello World');
+    console.log('Hello damn');
 })
 
 app.get('/cool', (req, res) => {
